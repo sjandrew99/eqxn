@@ -1,6 +1,7 @@
 # eqxn
 Equation writing and rendering, and maybe even some CAS
 
+tex ref: A Gentle Introduction to TEX, by Michael Doob (google it)
 
 you need tex and dvipng for the tex stuff
 just install dvipng from apt (sudo apt-get install dvipng)
@@ -14,6 +15,9 @@ then
 dvipng somefile.dvi
 produces somefile[1,2,3].png - one for each page
 
+
+## only do the below if you like building from source and things not
+## working:
 dvipng prereqs:
 libgd:
 wget https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.1.tar.gz
